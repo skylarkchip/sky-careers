@@ -38,8 +38,9 @@ const SubTeamCard = ({ subTeam, activeTab }) => {
         <Flex flexDirection={{ base: "column", md: "row" }} gap="4">
           <VStack
             spacing="10"
-            px={{ base: "6", lg: "8" }}
-            py={{ base: "6", lg: "12" }}
+            px={{ base: "6", md: "8" }}
+            pt={{ base: "6", md: "12" }}
+            pb={{ base: "6", md: "14" }}
             align="left"
             flex="1"
           >
