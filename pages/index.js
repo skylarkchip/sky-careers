@@ -2,6 +2,8 @@ import Head from "next/head";
 
 // Components
 import Homepage from "@/component/page/home/homepage.component";
+
+// Data
 import { fetchTeam } from "@/data/sub-teams";
 
 export default function Home(props) {

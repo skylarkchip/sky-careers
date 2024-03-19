@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Center,
-  Container,
-  Flex,
-  Heading,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Heading, Text, VStack } from "@chakra-ui/react";
 
 // Components
 import Layout from "@/component/layout/layout.component";

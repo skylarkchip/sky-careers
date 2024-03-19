@@ -1,6 +1,5 @@
 import React from "react";
-import { Box, Container, Flex, VStack } from "@chakra-ui/react";
-
+import { Container, Flex } from "@chakra-ui/react";
 const Layout = ({ children }) => {
   return (
     <Flex

@@ -1,16 +1,9 @@
-import { fetchAllSubTeams } from "@/data/sub-teams";
-import {
-  Button,
-  Tab,
-  TabIndicator,
-  TabList,
-  TabPanel,
-  TabPanels,
-  Tabs,
-} from "@chakra-ui/react";
 import React, { useState } from "react";
-import SubTeamCard from "../card/sub-team-card.component";
-import CustomDrawer from "../drawer/custom-drawer.component";
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
+
+// Components
+import SubTeamCard from "@/component/ui/card/sub-team-card.component";
+import CustomDrawer from "@/component/ui/drawer/custom-drawer.component";
 
 const SubTeamTabs = ({ subTeams }) => {
   const [activeTab, setActiveTab] = useState(0);

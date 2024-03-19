@@ -11,8 +11,8 @@ import {
 } from "@chakra-ui/react";
 
 // Components
-import CustomButton from "../button/custom-button.component";
-import CustomVideoPlayer from "../video/custom-video-player.component";
+import CustomButton from "@/component/ui/button/custom-button.component";
+import CustomVideoPlayer from "@/component/ui/video/custom-video-player.component";
 
 const SubTeamCard = ({ subTeam, activeTab }) => {
   return (
